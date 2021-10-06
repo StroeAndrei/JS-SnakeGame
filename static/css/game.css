@@ -1,0 +1,55 @@
+body {
+    background: url(../../static/images/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+} 
+
+main#container {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
+    width: 500px;
+}
+
+.scoreSection {
+    font-weight: bold;
+    font-size: 26px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.game-over {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(40, 50, 75, 0.8);
+}
+
+.game-over img {
+    width: 200px;
+}
+
+.game-over-buttons {
+    background-color: rgba(171, 167, 164, 0.8);
+    text-align: center;
+    padding: 10px;
+}
+
+button#restart {
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+button#restart:hover {
+    background-color: #fff;
+    cursor: pointer;
+}
